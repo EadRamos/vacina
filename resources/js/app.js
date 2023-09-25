@@ -39,8 +39,13 @@ const app = createApp();
 
 app.use(vuetify);
 
-import Example from './components/Example.vue'
-app.component('example', Example);
+// componentes importações
+
+// home
+import Inicial from './components/base/Inicial.vue'
+app.component('inicial', Inicial);
+
+
 
 app.mount('#app');
 
